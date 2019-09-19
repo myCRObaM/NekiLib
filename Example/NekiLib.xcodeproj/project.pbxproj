@@ -41,11 +41,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		70C8D96AD931BB0073E27850 /* Pods-NekiLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-NekiLib_Tests/Pods-NekiLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		85A486D538FC4106AF9E9D3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		85A486D538FC4106AF9E9D3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8BB3B64AE4D04309275587ED /* Pods_NekiLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekiLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADBAEC268649042526E07886 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ADBAEC268649042526E07886 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F7ABE96653A2F601B04680A1 /* Pods_NekiLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NekiLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBE2347DCD6D429C9E35CEDD /* NekiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NekiLib.podspec; path = ../NekiLib.podspec; sourceTree = "<group>"; };
+		FBE2347DCD6D429C9E35CEDD /* NekiLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NekiLib.podspec; path = ../NekiLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FFFAC8C83D90179FD398CEFA /* Pods-NekiLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NekiLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NekiLib_Tests/Pods-NekiLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				FFFAC8C83D90179FD398CEFA /* Pods-NekiLib_Tests.debug.xcconfig */,
 				70C8D96AD931BB0073E27850 /* Pods-NekiLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
