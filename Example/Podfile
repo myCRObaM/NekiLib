@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'NekiLib_Example' do
-  pod 'NekiLib', :path => '../'
+  pod 'NekiLib'
 
   target 'NekiLib_Tests' do
     inherit! :search_paths

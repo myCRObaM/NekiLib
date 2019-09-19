@@ -1,0 +1,6 @@
+framework module NekiLib {
+  umbrella header "NekiLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
